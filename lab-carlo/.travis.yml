@@ -12,9 +12,13 @@ addons:
       - g++-4.8
 env:
   - CXX=g++-4.8
-  - MONGODB_URI=mongodb://localhost/test
+  - MONGODB_URI=mongodb://localhost/cfgram-dev
   - PORT=3000
-  - APP_SECRET='lulwat top secret'
+  - APP_SECRET='carlomari'
+  - AWS_BUCKET='carlomari-lab-17'
+  - AWS_ACCESS_KEY_ID='AKIAIOI5KPAV6WZ4P53A'
+  - AWS_SECRET_ACCESS_KEY='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'
+
 sudo: required
 before_script: npm i -g eslint mocha
 script:
